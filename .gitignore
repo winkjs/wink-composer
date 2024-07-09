@@ -128,3 +128,12 @@ dist
 .yarn/build-state.yml
 .yarn/install-state.gz
 .pnp.*
+
+# Documentation
+sourcedocs
+
+# Mac stuff
+.DS_Store
+
+# Docs not needed
+docs
