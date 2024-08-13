@@ -3,41 +3,43 @@
     "version": "0.0.0",
     "description": "## Compose LLM applications easily 🎻",
     "keywords": [
-      "agents",
-      "rag",
-      "llm",
-      "wink-composer",
-      "winkjs",
-      "wink"
+        "agents",
+        "rag",
+        "llm",
+        "wink-composer",
+        "winkjs",
+        "wink"
     ],
     "main": "src/composer.js",
     "scripts": {
-      "pretest": "npm run lint",
-      "test": "nyc --reporter=html --reporter=lcov --reporter=text mocha ./test/",
-      "coverage": "nyc report --reporter=text-lcov | coveralls",
-      "sourcedocs": "docker -i src -o ./sourcedocs --sidebar yes",
-      "lint": "eslint ./src/*.js ./test/*.js",
-      "perf": "node benchmark/run.js",
-      "dtslint": "dtslint types"
+        "pretest": "npm run lint",
+        "test": "nyc --reporter=html --reporter=lcov --reporter=text mocha ./test/",
+        "coverage": "nyc report --reporter=text-lcov | coveralls",
+        "sourcedocs": "docker -i src -o ./sourcedocs --sidebar yes",
+        "lint": "eslint ./src/*.js ./test/*.js",
+        "perf": "node benchmark/run.js",
+        "dtslint": "dtslint types",
+        "docs-serve": "docsify serve"
     },
     "repository": {
-      "type": "git",
-      "url": "git+https://github.com/winkjs/wink-composer.git"
+        "type": "git",
+        "url": "git+https://github.com/winkjs/wink-composer.git"
     },
     "author": "Sanjaya Kumar Saxena",
     "license": "MIT",
     "bugs": {
-      "url": "https://github.com/winkjs/wink-composer/issues"
+        "url": "https://github.com/winkjs/wink-composer/issues"
     },
     "homepage": "http://winkjs.org/",
     "devDependencies": {
-      "benchmark": "^2.1.4",
-      "chai": "^4.3.7",
-      "coveralls": "^3.1.1",
-      "docker": "^1.0.0",
-      "dtslint": "^4.2.1",
-      "eslint": "^8.36.0",
-      "mocha": "^10.2.0",
-      "nyc": "^15.1.0"
+        "benchmark": "^2.1.4",
+        "chai": "^4.3.7",
+        "coveralls": "^3.1.1",
+        "docker": "^1.0.0",
+        "docsify-cli": "^4.4.4",
+        "dtslint": "^4.2.1",
+        "eslint": "^8.36.0",
+        "mocha": "^10.2.0",
+        "nyc": "^15.1.0"
     }
-  }
+}
