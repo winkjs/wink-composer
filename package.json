@@ -1,7 +1,7 @@
 {
     "name": "wink-composer",
     "version": "0.0.0",
-    "description": "## Compose LLM applications easily 🎻",
+    "description": "Compose LLM applications easily ♫",
     "keywords": [
         "agents",
         "rag",
@@ -19,7 +19,7 @@
         "lint": "eslint ./src/*.js ./test/*.js",
         "perf": "node benchmark/run.js",
         "dtslint": "dtslint types",
-        "docs-serve": "docsify serve"
+        "docs-serve": "docsify serve ./docs"
     },
     "repository": {
         "type": "git",

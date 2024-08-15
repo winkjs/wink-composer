@@ -3,7 +3,7 @@
 
 # wink-composer <small>0.5</small>
 
-> Compose LLM applications easily
+> Compose LLM applications easily ♫
 
 - ✨ Declarative, natural language like API
 - 🔖 Advanced Prompt Templates
